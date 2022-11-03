@@ -1,0 +1,14 @@
+#b1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(177, 177, 14);
+    position: static;  /*no margin accept only left */
+    left: 50%;
+    top: 50%;
+}
+#b2{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(13, 223, 205);
+    position:absolute;
+}

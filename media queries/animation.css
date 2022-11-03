@@ -1,0 +1,34 @@
+.box{
+    background-color: aqua;
+    width: 400px;
+    height:50px;
+    animation: anim 10s ease-in 1s infinite;
+    transition: 1s ease-in-out;
+}
+/* @keyframes anim{
+    from{
+        width:40px
+    }
+    to{
+        width:100%;
+    }
+} */
+.box:hover{
+    /* animation-play-state: paused; */
+    transform: rotatex(40deg);
+}
+
+/* @keyframes anim{
+    0%{
+        width:5px;
+        background-color:red
+    }
+    50%{
+        width:200px;
+        background-color:gold
+    }
+    100%{
+        width: 100%;
+        background-color:rgb(19, 209, 130)
+    }
+} */

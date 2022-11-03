@@ -1,0 +1,36 @@
+.box{
+    width: 600px;
+    height: 500px;
+    background-color: black;
+    color: aliceblue;
+}
+@media (max-width:500px){
+    .box{
+        background-color: red;
+        font-size: smaller;
+    }
+    span{
+        display: none;
+    }
+}
+/*to print this background color change but didn't change when display*/
+/* @media print{
+    .box{
+        background-color: blue;
+    }
+} */
+@media (orientation:landscape){
+    .box{
+        background-color:blue;
+    }
+}
+@media (orientation:portrait){
+    .box{
+        background-color:rgb(0, 225, 255);
+    }
+}
+@media (min-width:200px) and (max-width:500px){
+    .box{
+        background-color: gold;
+    }
+}

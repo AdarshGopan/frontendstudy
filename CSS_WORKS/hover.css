@@ -1,0 +1,12 @@
+button{
+    height: 50px;
+    align-items: center;
+    width: 112px;
+    border-radius: 30px;
+    background-color: aqua;
+    color:rgb(98, 19, 151)
+}
+button:hover{
+    background-color: rgb(98, 19, 151);
+    color:aqua
+}

@@ -1,0 +1,14 @@
+h1{
+    /* property:value; */
+    color: orange;
+    background-color: black;
+}
+/* color picker */
+/* rgb(12,35,56) */
+
+body{
+    background-color:rgb(116, 119, 138) ;
+}
+p{
+    color: yellow;
+}
